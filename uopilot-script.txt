@@ -1,0 +1,11 @@
+repeat 100
+    kright -944, 457 abs //png-image rightclick
+    wait 500
+    kleft -898, 494 abs //init save dialog
+    wait 500
+    kleft -1094, 662 abs // click OK
+    wait 500
+    kleft -1771, 357 abs // navigate to next day by clicking URL on the page
+    wait 1500
+End_Repeat
+end_script
