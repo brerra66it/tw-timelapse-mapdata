@@ -27,5 +27,5 @@
 * https://www.youtube.com/watch?v=qc-G1GvRZ0Y
 
 **4. Further improvement**
-* Define consistent colors for the tribes throughout the whole video, because images from http://ru68.twmaps.org/archive/all are automatically colored depending on some criteria
-* Right part of the video is unoccupied, perhaps one may show there some statistics for tribe comparison (e.g. villages, ODA and ODD) This requires advanced scripting, raw data can be parced from twstats and the rendered via gimp or elsehow...
+* Define consistent colors for the tribes throughout the whole video, because images from http://ru68.twmaps.org/archive/all are automatically colored depending on some criteria thus switching if tribe leadership is modified.
+* Right part of the video is unoccupied, perhaps one may show there some statistics for tribe comparison (e.g. villages, ODA and ODD). This requires advanced scripting, raw data can be parced from twstats and the rendered via gimp or elsehow...
