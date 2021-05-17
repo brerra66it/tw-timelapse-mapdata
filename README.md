@@ -25,3 +25,7 @@
 
 Во втором подходе я добавил картинок с прошедшими днями до закрытия мира ru68, также доработал скрипт чтобы тот вставлял время скриншота из верхнего левого угла исходного изображения. Скрипты пришлось переработать и отладить, читать документацию очень помогло.
 * https://www.youtube.com/watch?v=qc-G1GvRZ0Y
+
+**4. Further improvement**
+* Define consistent colors for the tribes throughout the whole video, because images from http://ru68.twmaps.org/archive/all are automatically colored depending on some criteria
+* Right part of the video is unoccupied, perhaps one may show there some statistics for tribe comparison (e.g. villages, ODA and ODD) This requires advanced scripting, raw data can be parced from twstats and the rendered via gimp or elsehow...
