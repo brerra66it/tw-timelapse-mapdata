@@ -1,4 +1,4 @@
-(define (script-fu-tw-map-batch pattern outsuffix top right bottom left)
+(define (script-fu-tw-map-batch pattern outsuffix)
 (let* (
     (filelist (cadr (file-glob pattern 1)))
     (filename "")
@@ -14,7 +14,7 @@
                 (substring filename (- (string-length filename) 4))
             )
         )
-        (script-fu-tw-map filename outfn top right bottom left)
+        (script-fu-tw-map filename outfn)
         (set! filelist (cdr filelist))
     )
 ))
@@ -26,10 +26,6 @@
     "August 2011"
     "RGB* GRAY*"
     SF-STRING "Pattern" "*.png"
-    SF-STRING "OutputSuffix" "_edged"
-    SF-VALUE "TopEdge" "0"
-    SF-VALUE "RightEdge" "0"
-    SF-VALUE "BottomEdge" "0"
-    SF-VALUE "LeftEdge" "0"
+    SF-STRING "OutputSuffix" "_out"
 )
 script-fu-tw-map-batch()
